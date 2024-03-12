@@ -20,18 +20,16 @@ To write a program to implement the the Logistic Regression Model to Predict the
 
 6.Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
 
-7.Apply new unknown values 
-
+7.Apply new unknown values\
 ## Program:
-```
+
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: Abisheik R
-RegisterNumber:  212223040005
+RegisterNumber: 212223040005
 */
-```
 
-```
+
 import pandas as pd
 data=pd.read_csv("C:/Users/Aadhi/Documents/ML/Placement_Data ex 04.csv")
 data.head()
@@ -68,9 +66,10 @@ accuracy
 from sklearn.metrics import classification_report
 classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
-lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])```
+lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
 ## Output:
+![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
 ![Screenshot 2024-03-12 092725](https://github.com/Dharma23012432/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/152275002/8c80c2f9-e157-4f1b-8384-d2e658ccb857)
 ![image](https://github.com/Dharma23012432/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/152275002/e86d4886-e799-4bf6-8308-164f87d7e7d0)
 ![image](https://github.com/Dharma23012432/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/152275002/c5196916-5dac-4bba-be95-68b9b32706d8)
