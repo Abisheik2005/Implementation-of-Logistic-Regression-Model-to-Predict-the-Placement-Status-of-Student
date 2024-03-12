@@ -32,7 +32,7 @@ RegisterNumber: 212223040005
 
 
 ```import pandas as pd
-data=pd.read_csv("C:/Users/Aadhi/Documents/ML/Placement_Data ex 04.csv")
+data=pd.read_csv("C:/Users/admin/Downloads/Placement_Data 2.csv")
 data.head()
 data1=data.copy()
 data1=data1.drop(["sl_no","salary"],axis=1)
